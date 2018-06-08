@@ -16,3 +16,10 @@
 > wanhua ALL=(ALL:ALL) ALL
 ### 无密码登录
 > 
+### 查看进程号 （nginx）
+> ps -ef|grep nginx
+### 启动 nginx
+> /usr/local/nginx/sbin/nginx -c /usr/local//nginx/conf/nginx.conf
+### 停止 nginx
+> kill -QUIT + 进程号  kill -9 + 进程号
+
